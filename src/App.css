@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css or relevant CSS file */
+.my-image {
+  display: block; /* Ensures the image is treated as a block element */
+  margin: 20px auto; /* Center the image horizontally */
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+}

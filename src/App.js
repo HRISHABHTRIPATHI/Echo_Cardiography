@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DopplersFindings from "./component/DopplersFindings";
+import EchoFindingsForm from "./component/EchoFindingsForm";
+import EchoFindingsTable from "./component/EchoFindingsTable";
+import Homepage from "./component/Homepage";
+import image from "./image.png"; // Adjust the name if necessary
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Homepage />
+      <EchoFindingsForm />
+      <img src={image} alt="Description of the image" className="my-image" />
+      <EchoFindingsTable />
+      <DopplersFindings />
     </div>
   );
 }

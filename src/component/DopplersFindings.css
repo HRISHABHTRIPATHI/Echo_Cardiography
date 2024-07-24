@@ -1,0 +1,73 @@
+/* DopplersFindings.css */
+.table-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+#printButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+#printButton:hover {
+  background-color: #0056b3;
+}
+
+
+.table-title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.findings-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.findings-table th,
+.findings-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.findings-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.findings-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.value-input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+.inline-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inline-inputs > div {
+  flex: 1; /* Allow each input to take equal space */
+  margin-right: 10px; /* Add some space between inputs */
+}
+
+.inline-inputs > div:last-child {
+  margin-right: 0; /* Remove margin from the last input */
+}

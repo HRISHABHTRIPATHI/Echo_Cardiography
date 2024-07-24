@@ -1,0 +1,43 @@
+/* EchoFindingsTable.css */
+.table-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .table-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .findings-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .findings-table th,
+  .findings-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .findings-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .findings-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .value-input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+  }
+  
